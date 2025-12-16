@@ -1,6 +1,6 @@
 {
   "name": "ache-cep-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "CLI para consulta de CEP (Código de Endereçamento Postal) brasileiro usando a API ViaCEP / CLI for querying Brazilian postal codes (CEP) using ViaCEP API",
   "main": "dist/index.js",
   "scripts": {
