@@ -1,9 +1,9 @@
-# 📮 CEP CLI
+# 📮 ACHE CEP CLI
 
-[![CI](https://github.com/mayconbalves/cep-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/mayconbalves/cep-cli/actions/workflows/ci.yml)
-[![NPM Version](https://img.shields.io/npm/v/cep-cli.svg)](https://www.npmjs.com/package/cep-cli)
+[![CI](https://github.com/mayconbalves/ache-cep-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/mayconbalves/ache-cep-cli/actions/workflows/ci.yml)
+[![NPM Version](https://img.shields.io/npm/v/ache-cep-cli.svg)](https://www.npmjs.com/package/ache-cep-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/mayconbalves/cep-cli/branch/main/graph/badge.svg)](https://codecov.io/gh/mayconbalves/cep-cli)
+[![codecov](https://codecov.io/gh/mayconbalves/ache-cep-cli/branch/main/graph/badge.svg)](https://codecov.io/gh/mayconbalves/ache-cep-cli)
 
 ---
 
@@ -27,19 +27,19 @@ CLI simples e poderoso para consulta de CEP (Código de Endereçamento Postal) b
 Sem necessidade de instalação! Execute diretamente:
 
 ```bash
-npx cep-cli <cep>
+npx ache-cep-cli <cep>
 ```
 
 #### Instalação Global
 
 ```bash
-npm install -g cep-cli
+npm install -g ache-cep-cli
 ```
 
 #### Instalação como Dependência
 
 ```bash
-npm install cep-cli --save-dev
+npm install ache-cep-cli --save-dev
 ```
 
 ### 🚀 Como Usar
@@ -47,7 +47,7 @@ npm install cep-cli --save-dev
 #### Exemplo Básico
 
 ```bash
-npx cep-cli 01310-100
+npx ache-cep-cli 01310-100
 ```
 
 #### Saída Esperada
@@ -66,10 +66,10 @@ O CLI aceita CEP com ou sem formatação:
 
 ```bash
 # Com hífen
-npx cep-cli 01310-100
+npx ache-cep-cli 01310-100
 
 # Sem formatação
-npx cep-cli 01310100
+npx ache-cep-cli 01310100
 ```
 
 ### 🛠️ Desenvolvimento
@@ -82,8 +82,8 @@ npx cep-cli 01310100
 #### Clonar o Repositório
 
 ```bash
-git clone https://github.com/mayconbalves/cep-cli.git
-cd cep-cli
+git clone https://github.com/mayconbalves/ache-cep-cli.git
+cd ache-cep-cli
 npm install
 ```
 
@@ -136,7 +136,7 @@ npm run test:watch
 ### 🏗️ Estrutura do Projeto
 
 ```
-cep-cli/
+ache-cep-cli/
 ├── .github/
 │   └── workflows/          # GitHub Actions CI/CD
 │       ├── ci.yml          # Pipeline de integração contínua
@@ -183,8 +183,8 @@ Contribuições são muito bem-vindas! Siga os passos abaixo:
 
 2. **Clone seu fork**
    ```bash
-   git clone https://github.com/seu-usuario/cep-cli.git
-   cd cep-cli
+   git clone https://github.com/seu-usuario/ache-cep-cli.git
+   cd ache-cep-cli
    ```
 
 3. **Crie uma branch para sua feature**
@@ -243,7 +243,7 @@ Contribuições são muito bem-vindas! Siga os passos abaixo:
 
 ### 🐛 Reportar Bugs
 
-Encontrou um bug? Abra uma [issue](https://github.com/mayconbalves/cep-cli/issues) com:
+Encontrou um bug? Abra uma [issue](https://github.com/mayconbalves/ache-cep-cli/issues) com:
 
 - Descrição do problema
 - Passos para reproduzir
@@ -253,7 +253,7 @@ Encontrou um bug? Abra uma [issue](https://github.com/mayconbalves/cep-cli/issue
 
 ### 💡 Sugerir Funcionalidades
 
-Tem uma ideia? Abra uma [issue](https://github.com/mayconbalves/cep-cli/issues) com:
+Tem uma ideia? Abra uma [issue](https://github.com/mayconbalves/ache-cep-cli/issues) com:
 
 - Descrição da funcionalidade
 - Por que ela é útil
@@ -271,8 +271,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ### 📞 Contato
 
-- Issues: [GitHub Issues](https://github.com/mayconbalves/cep-cli/issues)
-- Email: [crie uma issue](https://github.com/mayconbalves/cep-cli/issues)
+- Issues: [GitHub Issues](https://github.com/mayconbalves/ache-cep-cli/issues)
+- Email: [crie uma issue](https://github.com/mayconbalves/ache-cep-cli/issues)
 
 ---
 
@@ -296,19 +296,19 @@ Simple and powerful CLI for querying Brazilian postal codes (CEP - Código de En
 No installation needed! Run directly:
 
 ```bash
-npx cep-cli <cep>
+npx ache-cep-cli <cep>
 ```
 
 #### Global Installation
 
 ```bash
-npm install -g cep-cli
+npm install -g ache-cep-cli
 ```
 
 #### Install as Dependency
 
 ```bash
-npm install cep-cli --save-dev
+npm install ache-cep-cli --save-dev
 ```
 
 ### 🚀 Usage
@@ -316,7 +316,7 @@ npm install cep-cli --save-dev
 #### Basic Example
 
 ```bash
-npx cep-cli 01310-100
+npx ache-cep-cli 01310-100
 ```
 
 #### Expected Output
@@ -335,10 +335,10 @@ The CLI accepts CEP with or without formatting:
 
 ```bash
 # With hyphen
-npx cep-cli 01310-100
+npx ache-cep-cli 01310-100
 
 # Without formatting
-npx cep-cli 01310100
+npx ache-cep-cli 01310100
 ```
 
 ### 🛠️ Development
@@ -351,8 +351,8 @@ npx cep-cli 01310100
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/mayconbalves/cep-cli.git
-cd cep-cli
+git clone https://github.com/mayconbalves/ache-cep-cli.git
+cd ache-cep-cli
 npm install
 ```
 
@@ -405,7 +405,7 @@ npm run test:watch
 ### 🏗️ Project Structure
 
 ```
-cep-cli/
+ache-cep-cli/
 ├── .github/
 │   └── workflows/          # GitHub Actions CI/CD
 │       ├── ci.yml          # Continuous integration pipeline
@@ -452,8 +452,8 @@ Contributions are very welcome! Follow these steps:
 
 2. **Clone your fork**
    ```bash
-   git clone https://github.com/your-username/cep-cli.git
-   cd cep-cli
+   git clone https://github.com/your-username/ache-cep-cli.git
+   cd ache-cep-cli
    ```
 
 3. **Create a branch for your feature**
@@ -512,7 +512,7 @@ Contributions are very welcome! Follow these steps:
 
 ### 🐛 Report Bugs
 
-Found a bug? Open an [issue](https://github.com/mayconbalves/cep-cli/issues) with:
+Found a bug? Open an [issue](https://github.com/mayconbalves/ache-cep-cli/issues) with:
 
 - Problem description
 - Steps to reproduce
@@ -522,7 +522,7 @@ Found a bug? Open an [issue](https://github.com/mayconbalves/cep-cli/issues) wit
 
 ### 💡 Suggest Features
 
-Have an idea? Open an [issue](https://github.com/mayconbalves/cep-cli/issues) with:
+Have an idea? Open an [issue](https://github.com/mayconbalves/ache-cep-cli/issues) with:
 
 - Feature description
 - Why it's useful
@@ -540,8 +540,8 @@ This project is under the MIT license. See the [LICENSE](LICENSE) file for more 
 
 ### 📞 Contact
 
-- Issues: [GitHub Issues](https://github.com/mayconbalves/cep-cli/issues)
-- Email: [create an issue](https://github.com/mayconbalves/cep-cli/issues)
+- Issues: [GitHub Issues](https://github.com/mayconbalves/ache-cep-cli/issues)
+- Email: [create an issue](https://github.com/mayconbalves/ache-cep-cli/issues)
 
 ---
 
